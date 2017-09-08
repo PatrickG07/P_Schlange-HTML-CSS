@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Kontakt</title>
+		<meta charset="UTF-8">
+		<meta name="keyword" content="Schlangen algemein">
+		<meta name="description" content="Schlangen algemeine informationen Arten, Lebensort und Haltung">
+		<link href="styles.css" rel="stylesheet">
+	</head>
+	<body class="body1">
+		<div>
+			<nav id="nav">
+				<ul>
+					<li><a href="index.html">Startseite</a></li>
+					<li><a href="arten.html">Arten</a></li>
+					<li><a href="lebensort.html">Lebensort</a></li>
+					<li><a href="haltung.html">Haltung</a></li>
+					<li class="active"><a href="kontakt.html">Kontakt</a></li>
+				</ul>
+			</nav>
+			<section class="text">
+				<h1 class="center">Schlangen</h1>
+				<article>
+					<h2>Kontakt</h2>
+						<form class="leftan" action="mailto:gartenmannpatrick@gmx.ch?subject=Kontakt" method="post">
+							<label for="besuchername">Ihr Name:</label><br>
+							<input type="text" id="besuchername" autofocus required><br>
+							<label for="besuchermail">Ihre E-Mail-Adresse:</label><br>
+							<input type="email" id="besuchermail" required><br>
+							<label for="welche">Zu welcher Schlange?</label><br>
+							<select id="welche">
+								<option value="Baumpyton">Baumpyton</option>
+								<option value="Netzpyton">Netzpyton</option>
+								<option value="Klapperschlange">Texas-Klapperschlange</option>
+								<option value="Anakonda">Anakonda</option>
+								<option value="Pyton">K&ouml;nigspyton</option>
+								<option value="Kornnatter">Kornnatter</option>
+								<option value="Hornviper">W&uuml;sten-Hornviper</option>
+								<option value="Kobra">K&ouml;nigskobra</option>
+								<option value="Speikobra">Rote Speikobra</option>
+								<option value="Seitenwinder">Seitenwinder-Klapperschlange</option>
+								<option value="Meerschlange">Seeschlangen</option>
+								<option value="Andere">Andere</option>
+							</select><br>
+							<label>Ihre Nachricht:</label><br>
+							<textarea id="nachricht" name="nachricht" cols="20" rows="5"></textarea><br>
+							<input type="submit" value="Abschicken"><br>
+						</form>
+						<p>
+							<img class="animation" src="Bilder/schlange_kreis.png" alt="Kreis Schlange">
+							<!-- https://pixabay.com/de/schlange-celtic-kreis-logo-essen-40427/ -->
+						</p>
+				</article>
+			</section>
+			<footer>
+				&copy; 2015 by Patrick Gartenmann
+			</footer>
+		</div>
+	</body>
+</html>

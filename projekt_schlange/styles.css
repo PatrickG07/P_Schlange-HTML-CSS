@@ -1,0 +1,104 @@
+/*algemein*/
+.body1{
+	background: url(Bilder/snake.jpg) no-repeat fixed 0 0 / cover;
+	/* https://pixabay.com/de/schlange-k%C3%B6nigspython-python-regius-601832/ */
+}
+.body2{
+	background-color: blue;
+}
+body > div{
+	max-width: 700px;
+	margin: 0 auto;
+	background: rgba(255,255,255,0.7);
+}
+.center{
+	text-align: center;
+}
+.text{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#nav li{
+	display: inline-block;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: white;
+	margin: 10px 10px 0 10px;
+	width: 75px;
+	text-align: center;
+}
+nav li a{
+	text-decoration:none;
+	color: black;
+}
+nav li.active a{
+	text-decoration:underline;
+	color: black;
+}
+h1{
+	font-size: 30px;
+	line-height: 25px;
+}
+footer{
+	clear: both;
+	margin: 0 10px 10px 10px;
+
+}
+.left{
+	width: 70%;
+	float: left;
+}
+.bildmed{
+	max-width: 200px;
+}
+h2{
+	clear: both;
+}
+.clear{
+	clear: both;
+}
+/* index*/
+/*arten*/
+.bilderart{
+	max-width: 50%;
+}
+#navart{
+	list-style: none;
+	display: block;
+	text-decoration: none;
+	margin-left: 450px;
+	position: fixed;
+}
+.mainnavart{
+	position: fixed;	
+}
+#arten{
+	margin-right: 200px;
+}
+#textarten{
+	padding-top: 100px;
+}
+.anker{
+	
+}
+/*lebensort*/
+/*haltung*/
+/*kontakt*/
+.leftan{
+	width: 50%;
+}
+.rightan{
+	width: 50%;
+}
+.leftan, .rightan{
+	float: left;
+}
+.animation{
+	width: 200px;
+	margin-right: 100px;
+	animation: bild 7s infinite linear;
+}
+@keyframes bild{
+	0% {transform: rotate(360deg);}
+}
+

@@ -26,6 +26,7 @@ body > div{
 	margin: 10px 10px 0 10px;
 	width: 75px;
 	text-align: center;
+	margin-left: 1px;
 }
 nav li a{
 	text-decoration:none;
@@ -70,7 +71,7 @@ h2{
 	position: fixed;
 }
 .mainnavart{
-	position: fixed;	
+	position: fixed;
 }
 #arten{
 	margin-right: 200px;
@@ -101,4 +102,20 @@ h2{
 @keyframes bild{
 	0% {transform: rotate(360deg);}
 }
-
+/*moving*/
+#top-image {
+	background:url('https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/0/8/8905/red-rocks-park-o.jpg') -25px -50px;
+	position:fixed;
+	top:0;
+	width:100%;
+	max-width: 680px;
+	z-index:0;
+	height:100%;
+	background-size: calc(100% + 50px);
+	margin-top: 150px;
+	max-height: 420px;
+	clear: bottom;
+}
+#moving{
+	margin-top: 470px;
+}
